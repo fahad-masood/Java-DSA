@@ -1,5 +1,7 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
+        // Compare the first and second index
+        // if they are not equal, add the number to array
         if(nums.length == 0)
             return 0;
         
