@@ -1,7 +1,8 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
-        // Compare the first and second index
-        // if they are not equal, add the number to array
+        // Using fast and slow pointers concept
+        // Compare the values of first and second index
+        // if they are not equal, add the number to array and increase the index by 1
         if(nums.length == 0)
             return 0;
         
